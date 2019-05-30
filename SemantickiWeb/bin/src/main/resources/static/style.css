@@ -1,0 +1,72 @@
+
+button {
+	width:11em;
+  position: relative;
+	    margin-right: 15px;
+    margin-left: 15px;
+  display: inline-block;
+  margin: 1;
+  padding: 1rem 1rem;
+  background: palegreen;
+  color: black;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: normal;
+  border: 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  -webkit-transition: background 250ms, box-shadow 250ms;
+  transition: background 250ms, box-shadow 250ms;
+}
+button:hover {
+  background: lightblue;
+  box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.6);
+}
+button:active, button:focus {
+  outline: none;
+}
+button:active {
+  box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.8);
+}
+
+button .text {
+  position: relative;
+  z-index: 2;
+}
+
+input{
+	    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+p{
+	font-family: Arial;
+	font-size: 16;
+	
+}
+
+.content{
+	
+	background-color:silver;
+}
+
+mark{
+	background-color: yellow;
+	color: black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+

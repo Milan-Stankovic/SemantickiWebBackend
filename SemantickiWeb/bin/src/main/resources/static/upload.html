@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Upload fajla.</title>
+</head>
+
+<body ng-app="app" ng-controller="uploadController">
+	
+	<!-- Angular --> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+	
+	<!-- jQuerry -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	<script src="uploadController.js"></script>
+	<script src="uploadService.js"></script>
+	
+	<h1>Upload fajla.</h1>
+	<div ui-view="default">
+		<input type="file" file-upload="something.myFile" accept="audio/mp3"/>
+		</br>
+		<button ng-click="uploadFile()">Upload</button>
+	</div>
+	
+	<button ng-click="record()">Record</button>
+	<button ng-click="stop()">Stop</button>
+
+	
+</body>
+
+</html> 
