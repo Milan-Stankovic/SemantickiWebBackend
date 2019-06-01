@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 
 import java.io.File;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@RestController
 public class Ontologie {
 
     @RequestMapping(value = "/ontologies",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
@@ -322,6 +324,48 @@ public class Ontologie {
                     "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
                     "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
                     "select * {?x ?y ?z}";
+            Query query = QueryFactory.create(sprql);
+            QueryExecution qe = QueryExecutionFactory.create(query, model);
+            ResultSet resultSet = qe.execSelect();
+            int x=0;
+            while (resultSet.hasNext()) {
+                x++;
+                JSONObject obj = new JSONObject();
+                QuerySolution solution = resultSet.nextSolution();
+                System.out.println(solution.get("x").toString());
+                obj.put("subject",solution.get("x").toString());
+                obj.put("property",solution.get("y").toString());
+                obj.put("object",solution.get("z").toString());
+                list.add(obj);
+            }
+            System.out.println(x);
+            return list;
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @RequestMapping(value = "/query1",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<JSONObject> query2() {
+        List<JSONObject> list=new ArrayList();
+        String fileName = "sweb.owl";
+        try {
+            File file = new File(fileName);
+            FileReader reader = new FileReader(file);
+            OntModel model = ModelFactory
+                    .createOntologyModel(OntModelSpec.OWL_DL_MEM);
+            model.read(reader,null);
+
+            String sprql = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                    "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
+                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+                    "select ?something" +
+                    "where { ?something  "
+                    ;
             Query query = QueryFactory.create(sprql);
             QueryExecution qe = QueryExecutionFactory.create(query, model);
             ResultSet resultSet = qe.execSelect();

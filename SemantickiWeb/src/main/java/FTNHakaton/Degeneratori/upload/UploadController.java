@@ -62,6 +62,7 @@ public class UploadController {
 	@GetMapping("/api/files/{filename}")
 	@ResponseBody
 	public ResponseEntity<?> getFile(@PathVariable String filename) {
+		System.out.println(filename);
 		try{
 			Resource file = storageService.loadFile(filename);
 			return ResponseEntity.ok()

@@ -22,6 +22,7 @@ public class DegeneratoriApplication {
 		String fileName = "sweb.owl";
 		try {
 			File file = new File(fileName);
+			System.out.println(file.getAbsolutePath());
 			FileReader reader = new FileReader(file);
 			OntModel model = ModelFactory
 					.createOntologyModel(OntModelSpec.OWL_DL_MEM);
