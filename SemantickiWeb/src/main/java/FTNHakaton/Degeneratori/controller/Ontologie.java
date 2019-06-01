@@ -363,8 +363,10 @@ public class Ontologie {
                     "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
                     "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
                     "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
-                    "select ?something" +
-                    "where { ?something  "
+                    "SELECT *" +
+                    "WHERE {" +
+                    "  ?entity owl:PLOT  ?name ." +
+                    "}"
                     ;
             Query query = QueryFactory.create(sprql);
             QueryExecution qe = QueryExecutionFactory.create(query, model);
