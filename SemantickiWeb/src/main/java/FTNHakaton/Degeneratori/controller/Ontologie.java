@@ -367,6 +367,9 @@ public class Ontologie {
                     "{ " +
                     "    ?concept rdfs:label  ?label " +
                     "    filter(regex(str(?label),\"ompu\")) " +
+                    "SELECT *" +
+                    "WHERE {" +
+                    "  ?entity owl:PLOT  ?name ." +
                     "}"
                     ;
             Query query = QueryFactory.create(sprql);

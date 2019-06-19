@@ -20,7 +20,8 @@ public class DegeneratoriApplication {
 
 
 		String fileName = "sweb.owl";
-		/*try {
+
+	/*	try {
 			File file = new File(fileName);
 			System.out.println(file.getAbsolutePath());
 			FileReader reader = new FileReader(file);
@@ -33,8 +34,7 @@ public class DegeneratoriApplication {
 		}*/
 
 
-
-		TextProcessing txt = new TextProcessing();
+		/*TextProcessing txt = new TextProcessing();
 		
 		txt.addNewWords("Danas ćemo pričati o grafičkoj obradi slike. Koristićemo rasterizaciju slike.", "");//System.getProperty("user.dir")+"\\upload-dir\\grafikaskripta.txt");
 		for(String word : txt.getSortedWords())
@@ -44,7 +44,7 @@ public class DegeneratoriApplication {
 		for(Integer freq : txt.getSortedFrequency())
 		{
 			System.out.println(freq);
-		}
+		}*/
 
 	}
 }
