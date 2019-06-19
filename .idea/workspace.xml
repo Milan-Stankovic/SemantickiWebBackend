@@ -2,238 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0fe6a62-5e20-474a-b001-683ff8fae8ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/sweb.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/TextProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/TextProcessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/controller/AudioFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/controller/AudioFileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/controller/TextFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/controller/TextFileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/ListDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/ListDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/ProcessedDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/ProcessedDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/SearchResultDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/SearchResultDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/TextDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/TextDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/TimestampDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/dto/TimestampDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/AudiFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/AudiFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/Rec.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/Rec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/TextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/model/TextFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/repository/AudioFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/repository/AudioFileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/repository/TextFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/repository/TextFileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/service/AudioFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/service/AudioFileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/service/TextFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/service/TextFileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/StorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/StorageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/UploadDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/java/FTNHakaton/Degeneratori/upload/UploadDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/audiojs/audio.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/audiojs/audiojs.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/audiojs/player-graphics.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/includes/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/audiojs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/css/prviCss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/alerts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/background-variant.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/border-radius.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/center-block.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/clearfix.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/gradients.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/grid-framework.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/hide-text.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/image.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/list-group.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/nav-divider.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/nav-vertical-align.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/opacity.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/pagination.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/panels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/progress-bar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/reset-filter.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/resize.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/responsive-visibility.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/size.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/tab-focus.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/table-row.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/text-emphasis.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/text-overflow.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/mixins/vendor-prefixes.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/bootstrap-less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/404_500_errors.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/AdminLTE.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/alerts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/bootstrap-social.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/boxes.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/callout.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/carousel.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/direct-chat.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/dropdown.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/fullcalendar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/header.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/info-box.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/invoice.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/lockscreen.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/login_and_register.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/mailbox.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/miscellaneous.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/modal.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/navs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/products.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/progress-bars.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/sidebar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/_all-skins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-black.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-blue.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-green.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-purple.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-red.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/skins/skin-yellow.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/small-box.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/table.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/timeline.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/users-list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/build/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/AdminLTE.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/_all-skins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/_all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-black.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-black.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-blue.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-purple.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-red.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/css/skins/skin-yellow.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/boxed-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/boxed-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/default-50x50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/sprite-skin-flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/sprite-skin-nice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/img/studentImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/js/app.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/js/pages/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/dist/js/pages/dashboard2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/highcharts-ng.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/mic-animate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/mic-slash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/mic.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/mp3/Gaudeamus.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-slider/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/fastclick/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/fastclick/fastclick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/excanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.colorhelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.colorhelpers.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.canvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.categories.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.crosshair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.errorbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.fillbetween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.image.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.navigate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.navigate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.pie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.resize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.selection.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.stack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.symbol.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.threshold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.threshold.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/flot/jquery.flot.time.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.date.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.numeric.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.phone.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/jquery.inputmask.regex.extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/ionslider/ion.rangeSlider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/jQuery/jQuery-2.1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/jQueryUI/jquery-ui-1.10.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/jQueryUI/jquery-ui-1.10.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/pace/pace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/slimScroll/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/states.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/test.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/textProc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/uploadController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/uploadService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/uploadService1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/videoProc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/videoStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/voiceController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/voiceProc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/voiceStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/voiceToTextLive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/main/resources/static/webspeechdemo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/bin/src/test/java/FTNHakaton/Degeneratori/DegeneratoriApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/bin/src/test/java/FTNHakaton/Degeneratori/DegeneratoriApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/controller/Ontologie.java" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/controller/Ontologie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/upload/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/upload/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweb.owl" beforeDir="false" afterPath="$PROJECT_DIR$/sweb.owl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SemantickiWeb/target/" />
@@ -261,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="147">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -279,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/controller/Ontologie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="370" column="41" lean-forward="true" selection-start-line="370" selection-start-column="41" selection-end-line="370" selection-end-column="41" />
+            <state relative-caret-position="321">
+              <caret line="368" column="52" selection-start-line="368" selection-start-column="52" selection-end-line="368" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -325,8 +98,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java" />
         <option value="$PROJECT_DIR$/SemantickiWeb/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java" />
         <option value="$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/controller/Ontologie.java" />
       </list>
     </option>
@@ -460,16 +233,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559395166848</updated>
-      <workItem from="1559395168637" duration="1611000" />
+      <workItem from="1559395168637" duration="5999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1611000" />
+    <option name="totallyTimeSpent" value="5999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -483,13 +255,13 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18851571" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4637053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/DegeneratoriApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="147">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -557,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SemantickiWeb/src/main/java/FTNHakaton/Degeneratori/controller/Ontologie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="370" column="41" lean-forward="true" selection-start-line="370" selection-start-column="41" selection-end-line="370" selection-end-column="41" />
+        <state relative-caret-position="321">
+          <caret line="368" column="52" selection-start-line="368" selection-start-column="52" selection-end-line="368" selection-end-column="52" />
         </state>
       </provider>
     </entry>

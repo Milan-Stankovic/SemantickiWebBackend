@@ -20,7 +20,7 @@ public class DegeneratoriApplication {
 
 
 		String fileName = "sweb.owl";
-		try {
+		/*try {
 			File file = new File(fileName);
 			System.out.println(file.getAbsolutePath());
 			FileReader reader = new FileReader(file);
@@ -30,7 +30,7 @@ public class DegeneratoriApplication {
 			model.write(System.out,"RDF/XML-ABBREV");
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}*/
 
 
 

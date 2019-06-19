@@ -363,8 +363,11 @@ public class Ontologie {
                     "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
                     "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
                     "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
-                    "select ?something" +
-                    "where { ?something  "
+                    "select * where " +
+                    "{ " +
+                    "    ?concept rdfs:label  ?label " +
+                    "    filter(regex(str(?label),\"ompu\")) " +
+                    "}"
                     ;
             Query query = QueryFactory.create(sprql);
             QueryExecution qe = QueryExecutionFactory.create(query, model);
@@ -374,10 +377,7 @@ public class Ontologie {
                 x++;
                 JSONObject obj = new JSONObject();
                 QuerySolution solution = resultSet.nextSolution();
-                System.out.println(solution.get("x").toString());
-                obj.put("subject",solution.get("x").toString());
-                obj.put("property",solution.get("y").toString());
-                obj.put("object",solution.get("z").toString());
+                System.out.println(solution);
                 list.add(obj);
             }
             System.out.println(x);
