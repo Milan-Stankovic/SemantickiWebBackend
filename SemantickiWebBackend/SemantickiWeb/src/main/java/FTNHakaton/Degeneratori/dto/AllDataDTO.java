@@ -8,18 +8,36 @@ public class AllDataDTO {
 	private String definition;
 	private String comment;
 	private List<String> synonims;
-	
+	private int results;
+
 	public AllDataDTO() {
 		super();
 	}
 	
-	public AllDataDTO(String similarLabel, String definition, String comment, List<String> synonims) {
+	
+
+	public AllDataDTO(String similarLabel, String definition, String comment, List<String> synonims, int results) {
 		super();
 		this.similarLabel = similarLabel;
 		this.definition = definition;
 		this.comment = comment;
 		this.synonims = synonims;
+		this.results = results;
 	}
+
+
+
+	public int getResults() {
+		return results;
+	}
+
+
+
+	public void setResults(int results) {
+		this.results = results;
+	}
+
+
 
 	public String getSimilarLabel() {
 		return similarLabel;

@@ -41,7 +41,7 @@ public class Ontologie {
 	@Autowired
 	private LemmentizeService leme;
 	
-	@RequestMapping(value = "/match/{data}",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/query/{data}",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     public AllDataDTO test(@PathVariable String data) {
 		LabelsDTO temp = onservice.queryAllLabels(leme.oneWordLementize(data.replace("_", " ")));
         List<String> labele = temp.getLabels();
@@ -52,8 +52,9 @@ public class Ontologie {
         System.out.println(ttt.getLabel() + "---" + i + "---" + temp.getConcepts().get(i));
         
         String uri = temp.getConcepts().get(i);
-        System.out.println(new AllDataDTO(ttt.getLabel(), onservice.queryDeffintion(uri), onservice.querryComment(uri), onservice.querrySynonims(uri)));
-		return new AllDataDTO(ttt.getLabel(), onservice.queryDeffintion(uri), onservice.querryComment(uri), onservice.querrySynonims(uri));
+        AllDataDTO res = new AllDataDTO(ttt.getLabel(), onservice.queryDeffintion(uri), onservice.querryComment(uri), onservice.querrySynonims(uri), temp.getLabels().size());
+      
+		return res;
 		
     }
 	
