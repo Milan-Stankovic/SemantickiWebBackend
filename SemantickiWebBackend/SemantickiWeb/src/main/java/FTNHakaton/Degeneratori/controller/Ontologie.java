@@ -48,7 +48,10 @@ public class Ontologie {
         
         BestLabelDTO ttt = match.getBestMatch(data, labele);
         Integer i = (int) (long) ttt.getIdx();
-    
+
+        if(i==-1)
+            return null;
+
         System.out.println(ttt.getLabel() + "---" + i + "---" + temp.getConcepts().get(i));
         
         String uri = temp.getConcepts().get(i);
