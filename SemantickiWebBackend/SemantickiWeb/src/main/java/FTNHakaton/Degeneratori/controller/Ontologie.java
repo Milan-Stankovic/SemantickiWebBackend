@@ -43,16 +43,10 @@ public class Ontologie {
 	
 	@RequestMapping(value = "/query/{data}",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     public AllDataDTO test(@PathVariable String data) {
-		data = data.trim();
-		String lamentizzovano = leme.oneWordLementize(data.replaceAll("_", " "));
-		System.out.println("MIDLEMAN:" + lamentizzovano);
-		LabelsDTO temp = onservice.queryAllLabels(lamentizzovano.replaceAll("_", " "));
+		LabelsDTO temp = onservice.queryAllLabels(leme.oneWordLementize(data.replace("_", " ")));
         List<String> labele = temp.getLabels();
         
-        System.out.println(labele);
-        
-        System.out.println("DATA PRE BEST MATCH" + data);
-        BestLabelDTO ttt = match.getBestMatch(data.replaceAll(" ", "_"), labele);
+        BestLabelDTO ttt = match.getBestMatch(data, labele);
         Integer i = (int) (long) ttt.getIdx();
 
         if(i==-1)
